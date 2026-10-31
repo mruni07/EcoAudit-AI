@@ -1,0 +1,71 @@
+# EcoAudit AI — .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables and secrets
+.env
+*.env
+.env.*
+!.env.example
+secrets.toml
+secrets.*
+credentials.json
+service-account*.json
+*_secrets.*
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Generated reports
+*.pdf
+reports/
+output/
+
+# Local databases and data stores
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.backup-*
+
+# Jupyter
+.ipynb_checkpoints/

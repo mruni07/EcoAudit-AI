@@ -1,0 +1,3 @@
+"""
+EcoAudit AI — Modules Package
+"""

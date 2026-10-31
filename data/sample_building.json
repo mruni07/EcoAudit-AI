@@ -1,0 +1,186 @@
+{
+    "_metadata": {
+        "label": "Illustrative Sample Data — Not a Measured Real Building",
+        "description": "This sample data represents a hypothetical 3BHK apartment in New Delhi for demonstration purposes. All values are illustrative assumptions and are NOT official reference values or measurements from an actual building.",
+        "purpose": "Allows the application to be demonstrated without entering all information manually.",
+        "last_updated": "2024-12-01"
+    },
+    "building_profile": {
+        "name": "Sample Residential Apartment — Green Heights",
+        "building_type": "Apartment",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "climate_zone": "Composite",
+        "num_floors": 1,
+        "num_units": 1,
+        "built_up_area": 120,
+        "num_occupants": 4,
+        "building_age": 8,
+        "window_area": 18,
+        "window_orientation": "North and East facing",
+        "roof_type": "RCC slab",
+        "roof_insulation": "Not specified — requires inspection",
+        "wall_construction": "Brick walls with cement plaster",
+        "natural_ventilation": "Moderate",
+        "lighting_type": "Mix of LED and CFL",
+        "ac_availability": true,
+        "solar_installation": false,
+        "tariff": 7.0
+    },
+    "appliances": [
+        {
+            "name": "LED Lights",
+            "quantity": 10,
+            "power_watts": 9,
+            "hours_per_day": 6,
+            "days_per_month": 30,
+            "category": "Lighting",
+            "efficiency_info": "BEE rated LED bulbs",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "CFL Lights",
+            "quantity": 4,
+            "power_watts": 18,
+            "hours_per_day": 4,
+            "days_per_month": 30,
+            "category": "Lighting",
+            "efficiency_info": "Compact Fluorescent Lamps",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Ceiling Fans",
+            "quantity": 4,
+            "power_watts": 75,
+            "hours_per_day": 10,
+            "days_per_month": 30,
+            "category": "Cooling",
+            "efficiency_info": "Conventional ceiling fans (not BLDC)",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Split AC (1.5 Ton, 3-Star)",
+            "quantity": 2,
+            "power_watts": 1600,
+            "hours_per_day": 8,
+            "days_per_month": 25,
+            "category": "Cooling",
+            "efficiency_info": "BEE 3-star rated inverter AC. Rated power is compressor nameplate value; actual average draw depends on thermostat cycling and load.",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Refrigerator (260L, Frost-Free)",
+            "quantity": 1,
+            "power_watts": 150,
+            "hours_per_day": 24,
+            "days_per_month": 30,
+            "category": "Kitchen",
+            "efficiency_info": "BEE 3-star rated. Runs 24/7 but compressor duty cycle is approximately 30-40%.",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "LED Television (43 inch)",
+            "quantity": 1,
+            "power_watts": 80,
+            "hours_per_day": 5,
+            "days_per_month": 30,
+            "category": "Entertainment",
+            "efficiency_info": "LED TV",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Washing Machine (Front Load)",
+            "quantity": 1,
+            "power_watts": 500,
+            "hours_per_day": 1,
+            "days_per_month": 15,
+            "category": "Laundry",
+            "efficiency_info": "Semi-automatic front-load",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Electric Water Heater (Geyser, 15L)",
+            "quantity": 1,
+            "power_watts": 2000,
+            "hours_per_day": 0.5,
+            "days_per_month": 25,
+            "category": "Water Heating",
+            "efficiency_info": "BEE 4-star rated geyser",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Water Pump (0.5 HP)",
+            "quantity": 1,
+            "power_watts": 370,
+            "hours_per_day": 0.5,
+            "days_per_month": 30,
+            "category": "Utilities",
+            "efficiency_info": "Single-phase water pump",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Desktop Computer",
+            "quantity": 1,
+            "power_watts": 200,
+            "hours_per_day": 6,
+            "days_per_month": 25,
+            "category": "Computing",
+            "efficiency_info": "Desktop with monitor",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Wi-Fi Router",
+            "quantity": 1,
+            "power_watts": 12,
+            "hours_per_day": 24,
+            "days_per_month": 30,
+            "category": "Networking",
+            "efficiency_info": "Always-on device",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Set-Top Box",
+            "quantity": 1,
+            "power_watts": 25,
+            "hours_per_day": 10,
+            "days_per_month": 30,
+            "category": "Entertainment",
+            "efficiency_info": "DTH set-top box",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Microwave Oven",
+            "quantity": 1,
+            "power_watts": 1200,
+            "hours_per_day": 0.25,
+            "days_per_month": 25,
+            "category": "Kitchen",
+            "efficiency_info": "Solo microwave oven",
+            "power_source": "Assumed"
+        },
+        {
+            "name": "Mobile Phone Chargers",
+            "quantity": 4,
+            "power_watts": 15,
+            "hours_per_day": 3,
+            "days_per_month": 30,
+            "category": "Electronics",
+            "efficiency_info": "Smartphone chargers (5-20W each)",
+            "power_source": "Assumed"
+        }
+    ],
+    "monthly_bills": {
+        "January": 280,
+        "February": 260,
+        "March": 310,
+        "April": 420,
+        "May": 580,
+        "June": 650,
+        "July": 620,
+        "August": 590,
+        "September": 510,
+        "October": 380,
+        "November": 300,
+        "December": 270
+    }
+}
